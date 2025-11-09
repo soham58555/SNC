@@ -3,7 +3,7 @@ const products = [
     {
         id: 1,
         name: 'Quantum Headphones Pro',
-        price: 299.99,
+        price: ' 45000',
         rating: 4.8,
         image: 'https://images.unsplash.com/photo-1742570922875-e5a60e950307?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwaGVhZHBob25lcyUyMHRlY2h8ZW58MXx8fHwxNzYyNjU2MDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Audio'
@@ -11,7 +11,7 @@ const products = [
     {
         id: 2,
         name: 'NeoWatch Ultra',
-        price: 449.99,
+        price: ' 25000',
         rating: 4.9,
         image: 'https://images.unsplash.com/photo-1739287700815-7eef4abaab4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHdhdGNoJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjI1NzYwMjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Wearable'
@@ -19,7 +19,7 @@ const products = [
     {
         id: 3,
         name: 'AirPods Infinity',
-        price: 199.99,
+        price: '18000',
         rating: 4.7,
         image: 'https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGVhcmJ1ZHN8ZW58MXx8fHwxNzYyNTY1NDEwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Audio'
@@ -27,7 +27,7 @@ const products = [
     {
         id: 4,
         name: 'Stellar Phone X',
-        price: 999.99,
+        price: ' 70000',
         rating: 4.9,
         image: 'https://images.unsplash.com/photo-1761907174062-c8baf8b7edb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwbW9kZXJufGVufDF8fHx8MTc2MjYxNDE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Mobile'
@@ -35,7 +35,7 @@ const products = [
     {
         id: 5,
         name: 'HyperBook Gaming',
-        price: 1899.99,
+        price: ' 189999',
         rating: 4.8,
         image: 'https://images.unsplash.com/photo-1640955014216-75201056c829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBnYW1pbmd8ZW58MXx8fHwxNzYyNjU2MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Computing'
@@ -43,7 +43,7 @@ const products = [
     {
         id: 6,
         name: 'Echo Sphere',
-        price: 149.99,
+        price: ' 14999',
         rating: 4.6,
         image: 'https://images.unsplash.com/photo-1586078875290-c22eb791ad5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMHNwZWFrZXJ8ZW58MXx8fHwxNzYyNjU2MDgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Smart Home'
@@ -51,7 +51,7 @@ const products = [
     {
         id: 7,
         name: 'SkyDrone 4K',
-        price: 599.99,
+        price: '59999',
         rating: 4.7,
         image: 'https://images.unsplash.com/photo-1633169420455-97eb1405fc51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcm9uZSUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYyNTc2NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'Gadgets'
@@ -59,7 +59,7 @@ const products = [
     {
         id: 8,
         name: 'Reality VR Headset',
-        price: 399.99,
+        price: ' 39999',
         rating: 4.9,
         image: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2ciUyMGhlYWRzZXR8ZW58MXx8fHwxNzYyNjU2MDgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
         category: 'VR/AR'
@@ -158,7 +158,7 @@ function renderProducts() {
                     <span class="rating-value">(${product.rating})</span>
                 </div>
                 <div class="product-footer">
-                    <span class="product-price text-glow-cyan">$${product.price}</span>
+                    <span class="product-price text-glow-cyan">₹${product.price}</span>
                     <button class="add-to-cart-btn" onclick="addToCart(${product.id})">
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="9" cy="21" r="1"></circle>
