@@ -94,7 +94,7 @@ const testimonials = [
     },
     {
         id: 4,
-        name: 'Emma Rodriguez',
+        name: 'Jay Cutler',
         role: 'Smart Home Advocate',
         rating: 5,
         text: 'I love how easy it is to find cutting-edge smart home products. The website is beautiful and super intuitive.',
@@ -396,4 +396,5 @@ document.addEventListener('mousemove', (e) => {
     cursorDot.style.top = e.clientY - 4 + 'px';
 });
 */
+
 
