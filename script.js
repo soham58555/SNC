@@ -74,7 +74,7 @@ const testimonials = [
         role: 'Tech Enthusiast',
         rating: 5,
         text: 'SNC Shopping has completely changed how I shop for tech. The futuristic interface and amazing product selection make every purchase exciting!',
-        avatar: 'AC'
+        avatar: 'PP'
     },
     {
         id: 2,
@@ -82,7 +82,7 @@ const testimonials = [
         role: 'Digital Creator',
         rating: 5,
         text: 'The quality of products and the fast delivery is unmatched. I always find the latest gadgets here before anywhere else.',
-        avatar: 'SM'
+        avatar: 'SK'
     },
     {
         id: 3,
@@ -90,7 +90,7 @@ const testimonials = [
         role: 'Gaming Professional',
         rating: 5,
         text: 'From gaming laptops to VR headsets, SNC has everything I need. Customer service is top-notch too!',
-        avatar: 'MJ'
+        avatar: 'VK'
     },
     {
         id: 4,
@@ -98,7 +98,8 @@ const testimonials = [
         role: 'Smart Home Advocate',
         rating: 5,
         text: 'I love how easy it is to find cutting-edge smart home products. The website is beautiful and super intuitive.',
-        avatar: 'ER'
+        avatar: 'JC
+            '
     }
 ];
 
@@ -396,5 +397,6 @@ document.addEventListener('mousemove', (e) => {
     cursorDot.style.top = e.clientY - 4 + 'px';
 });
 */
+
 
 
