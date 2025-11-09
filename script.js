@@ -26,7 +26,7 @@ const products = [
     },
     {
         id: 4,
-        name: 'Stellar Phone X',
+        name: 'Stellar Phone X Ulta Pro max',
         price: ' 70000',
         rating: 4.9,
         image: 'https://images.unsplash.com/photo-1761907174062-c8baf8b7edb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwbW9kZXJufGVufDF8fHx8MTc2MjYxNDE5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
@@ -82,24 +82,23 @@ const testimonials = [
         role: 'Digital Creator',
         rating: 5,
         text: 'The quality of products and the fast delivery is unmatched. I always find the latest gadgets here before anywhere else.',
-        avatar: 'SK'
+        avatar: 'SM'
     },
     {
         id: 3,
-        name: 'Virat kohli',
+        name: 'Marcus Johnson',
         role: 'Gaming Professional',
         rating: 5,
         text: 'From gaming laptops to VR headsets, SNC has everything I need. Customer service is top-notch too!',
-        avatar: 'VK'
+        avatar: 'MJ'
     },
     {
         id: 4,
-        name: 'Jay Cutler',
+        name: 'Emma Rodriguez',
         role: 'Smart Home Advocate',
         rating: 5,
         text: 'I love how easy it is to find cutting-edge smart home products. The website is beautiful and super intuitive.',
-        avatar: 'JC
-            '
+        avatar: 'ER'
     }
 ];
 
@@ -397,6 +396,3 @@ document.addEventListener('mousemove', (e) => {
     cursorDot.style.top = e.clientY - 4 + 'px';
 });
 */
-
-
-
